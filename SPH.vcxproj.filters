@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CUDA">
+      <UniqueIdentifier>{a8b8561e-62dc-4384-bf7d-c06343bbe18a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{84455ef4-1b8e-4575-9852-5733f86b7784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{a3845bb5-cc52-493e-af0f-4780c10e8d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cu;cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="cSPH">
+      <UniqueIdentifier>{3b5af4ee-9d12-45c4-98f6-71cdd111f2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cScene">
+      <UniqueIdentifier>{48e80888-fa1f-4caf-98a4-faaf27f1eab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tinyxml">
+      <UniqueIdentifier>{c8be1558-8ddf-4089-a9bf-389e13c8f319}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\CUDA\radixsort.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Source\CUDA\Params.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Source\CUDA\System.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Source\CUDA\radixsort_kernel.cu">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Source\CUDA\Kernel_Cell.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="Source\CUDA\Kernel.cu">
+      <Filter>CUDA</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Graphics\param.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\paramgl.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\render_particles.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\render_shaders.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\pch\header.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\pch\timer.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\App\App.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\App\Help.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\App\Input.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\App\Render.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\App\RenderBC.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\App\RenderText.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\App\Sliders.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\App\Update.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SPH\SPH_Init.cpp">
+      <Filter>cSPH</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SPH\SPH_Mem.cpp">
+      <Filter>cSPH</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SPH\SPH_Scenes.cpp">
+      <Filter>cSPH</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SPH\SPH_Update.cpp">
+      <Filter>cSPH</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SPH\SPH_Util.cpp">
+      <Filter>cSPH</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SPH\Scene.cpp">
+      <Filter>cScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SPH\Scene_Load.cpp">
+      <Filter>cScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\pch\tinystr.cpp">
+      <Filter>Tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\pch\tinyxml.cpp">
+      <Filter>Tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\pch\tinyxmlerror.cpp">
+      <Filter>Tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\pch\tinyxmlparser.cpp">
+      <Filter>Tinyxml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Graphics\param.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\paramgl.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\render_particles.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\pch\header.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\pch\timer.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\App\App.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SPH\SPH.h">
+      <Filter>cSPH</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SPH\Scene.h">
+      <Filter>cScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\pch\tinystr.h">
+      <Filter>Tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\pch\tinyxml.h">
+      <Filter>Tinyxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Scenes.xml">
+      <Filter>cScene</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Source\CUDA\radixsort.cu">
+      <Filter>CUDA</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Source\CUDA\System.cu">
+      <Filter>CUDA</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
