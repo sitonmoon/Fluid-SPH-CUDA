@@ -8,7 +8,7 @@ void Scene::InitDefault()	//  Init
 {
 	SimParams& p = params;
 	///  simulate  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-	p.numParticles = 1024*2*2;		p.maxParInCell = 8 /*=8 4*/;
+	p.numParticles = 1024*5*6;		p.maxParInCell = 8 /*=8 4*/;
 	p.timeStep = 0.0026f; /*3*/		p.globalDamping = 1.00f;
 	p.gravity = make_float3(0, -9.81, 0);
 
